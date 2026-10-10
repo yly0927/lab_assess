@@ -33,3 +33,23 @@ canda环境的创建，激活，包安装等操作使用Anaconda Powershell Prom
 2、经过尝试，CUDA版安装时网络多次超时、下载失败，后安装cpu版，后续网络稳定后再安装CUDA版。
 
 3、随后进入pytorch官网，根据官网安装向导，复制安装指令，随后输入指令验证环境配置是否成功
+
+代码
+
+## 环境配置步骤
+
+1. 创建虚拟环境：
+
+   conda create -n lab_env python=3.10 -y
+
+2. 激活环境：
+
+   conda activate lab_env
+
+3. 安装 PyTorch：
+
+   pip install torch torchvision torchaudio
+
+4. 安装 OpenCV：
+
+   pip install opencv-python
