@@ -41,15 +41,12 @@ canda环境的创建，激活，包安装等操作使用Anaconda Powershell Prom
 1. 创建虚拟环境：
 
    conda create -n lab_env python=3.10 -y
-
 2. 激活环境：
 
    conda activate lab_env
-
 3. 安装 PyTorch：
 
    pip install torch torchvision torchaudio
-
 4. 安装 OpenCV：
 
    pip install opencv-python
